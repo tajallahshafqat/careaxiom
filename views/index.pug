@@ -1,0 +1,10 @@
+html
+  head
+    title Careaxiom Test
+  body
+    h1 Following are the titles of given websites:
+    ul
+      each obj in titles
+        li= obj.address + ' - ' + obj.title
+      else
+        li There are no values
